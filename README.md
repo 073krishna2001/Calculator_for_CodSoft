@@ -2,7 +2,7 @@
 The source code and files for a straightforward calculator application are available in this repository. A straightforward but practical calculator with stylish appearance that can quickly carry out the basic arithmetic operations required for computations.
 
 
-## Demonstration -> [Live site](https://073krishna2001.github.io/Calculator_for_InternPe/)
+## Demonstration -> [Live site](https://073krishna2001.github.io/Calculator_for_CodSoft/)
 
 <table>
   <tr>
