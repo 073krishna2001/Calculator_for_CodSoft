@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+
+/* body  */
+
+html, body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  align-items: center;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+
+/* container coloring */
+
+#grad1 {
+  background-color: #cccccc;
+  background-image: radial-gradient(rgb(0, 191, 255), yellow);
+}
+
+.animate-charcter
+{
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #3c9bd6 0%,
+    #7822d3 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2.5s linear infinite;
+  display: inline-block;
+  padding-left: 25px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+/* container text  */
+
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator{
+  background-color: #E7B1FB;
+  padding: 15px;
+  border-radius: 30px;
+  display: flexbox;
+  grid-template-columns: repeat(4,68px);
+  position: absolute;
+  z-index: 0;
+}
+
+.text-center{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+
+/* button */
+
+.button{
+  background-color: #e9e9e9;
+  align-items: center;
+  width: 60px;
+  padding: 15px;
+  margin: 0px 0px 0px 12px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  position: relative;
+}
+
+.row{
+  margin: 8px 0;
+}
+
+.row input{
+  background-color: #e9e9e9;
+  width: 291px;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+
+/* utils */
+
+.text-center{
+  text-align: center;
+}
+
+.bg-red{
+  background: red;
+}
+
+.mx-auto{
+  margin: auto;
+}
+
+.flex{
+  display:flex;
+} 
+.flex-col{
+  flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
+
+
+/* hover  */
+
+.action_button{
+  border: 2px solid #f2a667;
+  transition: 1s all ease;
+}
+
+.action_button:hover{
+  background-color: #fa8f37;
+  box-shadow: 0px 0px 5px #fa8f37, 0px 0px 20px #fa8f37;
+}
+
+.function_button{
+  border: 2px solid #73f7f5;
+  transition: 1s all ease;
+}
+
+.function_button:hover{
+  background-color: #20bef3;
+  box-shadow: 0px 0px 5px #20bef3, 0px 0px 20px #20bef3;
+}
+
+.normal_button {
+  border: 2px solid #b7b4b4;
+}
+
+.normal_button:hover{
+  background-color: #c3c3c3;
+  box-shadow: 0px 0px 5px #c3c3c3, 0px 0px 20px #c3c3c3;
+}
