@@ -11,7 +11,7 @@ The source code and files for a straightforward calculator application are avail
     </td>
   </tr>
   <tr>
-    <td align="center">Colored Calculator</td>
+    <td align="center">Designed Calculator</td>
   </tr>
 </table>
 
